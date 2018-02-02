@@ -15,7 +15,6 @@
 ; AddGUI(PatID, AccNo, ExamDate, currExamName){
 AddGUI(){	
 	WorkBookPath := A_Desktop "\Database.xlsx"                 ; change this line to your workbook path
-	Msgbox, % WorkBookPath
 	gui, new
 	xlDown := -4121
 

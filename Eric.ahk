@@ -31,6 +31,7 @@ PRESERVE_CLIPBOARD := 0
 #Include MyScripts\hotkey\Click.ahk
 #Include MyScripts\hotkey\click-confirm.ahk
 #Include MyScripts\hotkey\AutoCheck.ahk
+#Include MyScripts\hotkey\DownloadCheck.ahk
 #Include MyScripts\hotkey\change-font.ahk
 #Include MyScripts\hotkey\renumber-selected-text.ahk
 #Include MyScripts\hotkey\detect-non-ascii-chars.ahk
@@ -73,6 +74,10 @@ Return
 
 !s::
   ClickConfirm()
+Return
+
+!r::
+  DownloadCheck()
 Return
 
 !d::
