@@ -5,8 +5,6 @@ GroupAdd, SmartWonder, VGHKS-
 GroupAdd, SmartWonder, vghks-
 GroupAdd, SmartWonder, tedpc-
 
-
-
 ; Global Variables
 #Include MyScripts\vars.ahk
 
