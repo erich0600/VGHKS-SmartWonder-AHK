@@ -1,0 +1,19 @@
+python query.py 192.168.195.3 2350 62183547
+
+python query.py 192.168.220.1 4568 92109962 SC20
+
+curl -v http://192.168.195.3:9090/dcm4jboss-wado/?requestType=WADO&contentType=application/dicom&studyUID=1.2.840.113817.886.602030026.0.14663640.86092571&seriesUID=1.2.392.200036.9125.3.331556532109.64861726980.3788134&objectUID=1.2.392.200036.9125.9.0.253355319.2063597760.756093840
+
+
+http://192.168.195.3:9090/dcm4jboss-wado/?requestType=WADO&contentType=application/dicom&studyUID=1.2.392.200036.9125.2.172167260216.64861751319.12034
+
+
+
+
+
+http://intranet.vghks.gov.tw/wps/myportal/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOItHF3dDY2cDbzcA_1dDBwt_d19Q01CDQ0szPQLsh0VAZLL2Pk!/?&amdrParameters=NjI5MDMyMCwwMTAzODUyNCxXNzIsMDU2LCw=&hhisnum=6290320&hcaseno=01038524&hcasetyp=A
+
+
+http://intranet.vghks.gov.tw/wps/myportal/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOItHF3dDY2cDbzcA_1dDBwt_d19Q01CDQ0szPQLsh0VAZLL2Pk!/?&amdrParameters=OTg1NjAxMywwMTAzNTgzOSxXNjUsMDI3LCw=&hhisnum=9856013&hcaseno=01035839&hcasetyp=A
+
+http://intranet.vghks.gov.tw/wps/myportal/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOItHF3dDY2cDbzcA_1dDBwt_d19Q01CDQ0szPQLsh0VAZLL2Pk!/?&amdrParameters=NjI5MDMyMCwwMTAzODUyNCxXNzIsMDU2LCw=&hhisnum=9856013&hcaseno=01035839&hcasetyp=A
