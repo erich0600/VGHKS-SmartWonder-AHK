@@ -7,7 +7,7 @@ ClickConfirm(){
   wb := WBGet()
   frmWork := wb.document.parentWindow.frames["frameWork"]
   firstTab := frmWork.document.getElementById("tab000").innerText
-  If (firstTab = "å ±å‘Šç·¨è¼¯") {
+  If (firstTab = "³ø§i½s¿è") {
     tabIframe2 := frmWork.document.parentWindow.frames["tabIframe2"]
     ConfirmReport := tabIframe2.document.getElementsByName("ConfirmReport")[0]
     ConfirmReport.click()
@@ -15,12 +15,13 @@ ClickConfirm(){
     Sleep, 2000
   	WinActivate, ahk_class IEFrame, vghks
     ;MsgBox % ConfirmReport.value
-  } Else If (firstTab = "æª¢æŸ¥æ­¥é©Ÿç·¨è¼¯") {
+  } Else If (firstTab = "ÀË¬d¨BÆJ½s¿è") {
   	frameProcess := wb.document.parentWindow.frames["frameProcess"]
-  	
+  	 
   	RecommContent := frameProcess.document.getElementsByName("Recommendation")[0]
   	; MsgBox, % RecommContent.innerText
   	If (RecommContent) {
+      
   		frameCode := frameProcess.document.parentWindow.frames["frameCode"]
     	getCode := frameCode.document.getElementsByName("getCode")[0]
     	getCode.click()

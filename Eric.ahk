@@ -73,6 +73,7 @@ Return
 Return
 
 !s::
+  
   ClickConfirm()
 Return
 
