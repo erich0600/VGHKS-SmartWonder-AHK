@@ -82,7 +82,8 @@ Return
 Return
 
 !d::
-  Reload
+  ; Reload
+  DetectNonAsciiChars()
   ;Click()
 Return
 

@@ -48,6 +48,7 @@ Return
 #Include MyScripts\hotkey\renumber-selected-text.ahk
 #Include MyScripts\hotkey\click-none-tb-none-ot.ahk
 #Include MyScripts\hotkey\AddCase.ahk
+#Include MyScripts\hotkey\toggle-hanging-protocol.ahk
 
 ; Define hotkeys
 #IfWinActive ahk_group SmartWonder

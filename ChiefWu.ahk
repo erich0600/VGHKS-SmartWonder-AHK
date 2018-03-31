@@ -21,47 +21,45 @@ GroupAdd, SmartWonder, tedpc-
 
 ;;; HotStrings
 #IfWinActive ahk_group SmartWonder
-
 ::IC0::
-StringWithPrevExamDateDelete("NO interval change from the latest exam")
+StringWithPrevExamDateDelete("No interval change from the latest exam")
 Return
 
 ::OIC0::
-StringWithPrevExamDateDelete("Other than above findings, there is NO Other imaging interval CHANGES from the latest study")
+StringWithPrevExamDateDelete("Other than above findings, there is no other imaging interval change from the latest study")
 Return
 
 ::IC1::
-StringWithPrevExamDateDelete("mild PROGRESSIVE change from the prior exam")
+StringWithPrevExamDateDelete("Mild progressive change from the prior exam")
 Return
 
 ::IC2::
-StringWithPrevExamDateDelete("moderate PROGRESSIVE change from the prior exam")
+StringWithPrevExamDateDelete("Moderate progressive change from the prior exam")
 Return
 
 ::IC3::
-StringWithPrevExamDateDelete("remarkable PROGRESSIVE change from prior exam")
+StringWithPrevExamDateDelete("Remarkable progressive change from prior exam")
 Return
 
 ::IC-0::
-StringWithPrevExamDateDelete("NO FURTHER improvement from the latest exam")
+StringWithPrevExamDateDelete("No further improvement from the latest exam")
 Return
 
 ::IC-1::
-StringWithPrevExamDateDelete("mild IMPROVEMENT as compared with the latest examination")
+StringWithPrevExamDateDelete("Mild improvement as compared with the latest examination")
 Return
 
 ::IC-2::
-StringWithPrevExamDateDelete("moderate IMPROVEMENT but considerable residual change still noted as compared with the latest examination")
+StringWithPrevExamDateDelete("Moderate improvement but considerable residual change still noted as compared with the latest examination")
 Return
 
 ::IC-3::
-StringWithPrevExamDateDelete("remarkable IMPROVEMENT as compared with the latest examination")
+StringWithPrevExamDateDelete("Remarkable improvement as compared with the latest examination")
 Return
 
 ::ic+-::
-StringWithPrevExamDateDelete("SOME lesions improved and SOME progressed; as a whole, NO remarkable change")
+StringWithPrevExamDateDelete("Some lesions improved and some progressed; As a whole, no remarkable change")
 Return
-
 ;
 ; AutoHotkey Version: 1.x
 ; Language:       English
